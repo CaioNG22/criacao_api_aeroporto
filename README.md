@@ -1,12 +1,12 @@
 # Visão Geral
 
-| HTTP | URL | Descrição | Corpo da Solicitação | Corpo da Resposta |
-| --- | --- | --- | --- | --- |
-| GET | `/api/v1/produtos` | Obter todos os produtos. | Nenhum | Lista de produtos |
-| GET | `/api/v1/produtos/{id}` | Obter um produto por ID. | Nenhum | Item de produto |
-| POST | `/api/v1/produtos` | Adicionar um novo produto. | Produto | Item de produto |
-| PUT | `/api/v1/produtos/{id}` | Atualizar um produto existente. | Produto | Nenhum |
-| DELETE | `/api/v1/produtos/{id}` | Excluir um produto. | Nenhum | Nenhum |
+| HTTP | URL                     | Descrição | Corpo da Solicitação | Corpo da Resposta |
+| --- |-------------------------| --- | --- | --- |
+| GET | `/api/v1/aeroportos`    | Obter todos os aeroportos. | Nenhum | Lista de aeroporto |
+| GET | `/api/v1/aeroportos/{id}` | Obter um aeroportos por ID. | Nenhum | Item de aeroporto |
+| POST | `/api/v1/aeroportos`      | Adicionar um novo aeroporto. | aeroporto | Item de aeroporto |
+| PUT | `/api/v1/aeroportos/{id}` | Atualizar um aeroportos existente. | aeroporto | Nenhum |
+| DELETE | `/api/v1/aeroportos/{id}` | Excluir um aeroporto. | Nenhum | Nenhum |
 
 # Pré-Requisitos
 
